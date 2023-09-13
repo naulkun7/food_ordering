@@ -1,9 +1,50 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+:root {
+  /* Color */
+  --color-primary: #000;
+  --color-secondary: #fff;
+
+
+  /* Background */
+  --background-primary: #fff;
+  --background-secondary: #000;
+
+  /* Font */
+  --font-title: 'Pacifico', cursive;
+  --font-sans: 'Rajdhani', sans-serif;
+  --font-mono: 'Source Code Pro', monospace;
+
+  /* Font Size */
+  --fs-small: 13px;
+  --fs-medium: 16px;
+  --fs-large: 20px;
+  --fs-title: 30px;
+  --fs-heading: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background: #000;
 }
 
 h1 {
-  color: yellow;
+  color: var(--color-secondary);
   text-align: center;
   font-size: 300px;
+  font-family: var(--font-sans);
 }
