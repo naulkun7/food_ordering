@@ -1,0 +1,35 @@
+.navbar {
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    img {
+      width: 60px;
+      height: auto;
+      margin: 0 1rem;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+
+    &__item {
+      margin: 0 1rem;
+      font-size: var(--fs-medium);
+      font-weight: 700;
+      color: var(--color-primary);
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
