@@ -23,16 +23,21 @@
   --font-mono: 'Source Code Pro', monospace;
 
   /* Font Size */
-  --fs-small: 13px;
-  --fs-medium: 16px;
-  --fs-large: 20px;
-  --fs-title: 30px;
-  --fs-heading: 40px;
+  font-size: 62.5%;
+  --fs-small: 1.3rem;
+  --fs-medium: 1.6rem;
+  --fs-large: 2.4rem;
+  --fs-title: 3.2rem;
+  --fs-heading: 4.8rem;
 }
 
 html {
   scroll-behavior: smooth;
   font-family: var(--font-sans);
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
